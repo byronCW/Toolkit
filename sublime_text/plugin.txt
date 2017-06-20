@@ -1,0 +1,45 @@
+本文档记录sublime text 使用中遇到的一些方便好用的插件
+
+1. Terminal
+在 Windows 下可以安装 cmder 来代替系统的 cmd 命令行， cmder 支持常见的linux命令操作。
+    配置： preference–>Package Settings–>Terminal–>Terminal Settings-users
+        {
+            "terminal": "C:\\WINDOWS\\system32\\cmd.exe",
+            //"terminal": "C:\\Program Files\\cmder\\Cmder.exe",
+            "parameters": ["/START", "%CWD%"]
+        }
+    快捷键： Ctrl + Alt + T
+
+2. Sidebar Enhancements
+增强侧边栏。
+
+3. SyncedSidebarBg
+
+4. SideBarEnhancements
+
+5. AutoFileName
+
+6. BracketHightlighter
+
+7. Alignment
+
+
+中文与编码
+
+10. ChineseLocalization
+    Sublime中文汉化包。
+
+11. ConvertToUTF8
+    GBK编码兼容。文件转码成utf-8.
+    可以编辑并保存目前编码不被 Sublime Text 支持的文件。
+    使用：安装插件后自动转换为utf-8格式。
+
+12. IMESupport
+    输入中文时，候选词跟随鼠标.
+
+13. GBK Support
+    中文识别
+    Sublime Text可识别UTF-8格式的中文，不识别GBK和ANSI，因此打开很多含中文的文档都会出现乱码。
+    通过安装插件GBK Support,来识别GBK和ANSI。
+
+14. CovertChineseCharacters
